@@ -18,7 +18,7 @@ def read_file(file_name):
             t2.append(float(line[2]))
             t4.append(float(line[3]))
             t8.append(float(line[4]))
-            t16.append(float(line[4]))
+            t16.append(float(line[5]))
     return size, t1, t2, t4, t8, t16
 
 def plot_graph(file_name, title):
